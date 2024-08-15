@@ -1,0 +1,26 @@
+.item{
+    height: 175px;
+    margin: 2px;
+    padding: 10px;
+}
+.box1{
+    background-color: gray;
+    display:flex;
+    justify-content: space-around;
+}
+.box2{
+    background-color:brown;
+    display: flex;
+    justify-content:  space-around;
+}
+.box3 {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+.cuerpo{
+    padding: 12px 10%;
+}

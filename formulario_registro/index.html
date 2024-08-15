@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <div style="border: 2px solid black; padding: 15px;padding-top: 0px; margin: 0 auto;margin-top: 15px; width: 500px;">
+        <h1><strong>¡Regístrate y únete a la comunidad!</strong></h1>
+        <form action="#" method="post">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+
+            <label for="correo">Correo Electronico: </label>
+            <input type="email" name="correo" id="correo"><br><br>
+
+            <label for="contraseña">Contraseña: </label>
+            <input type="password" id="contraseña" name="contraseña"><br><br>
+
+            <label for="fecha">Fecha: </label>
+            <input type="date" id="fecha" name="fecha"><br><br>
+            
+            <label>Genero: </label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" id="nodecir" value="prefiero no decir">
+            <label for="nodecir">Prefiero no decir</label><br><br>
+
+            <input type="checkbox" id="suscripcion" name="suscripcion">
+            <label for="suscripcion">Suscribete a nuestro boletin de noticias</label><br><br>
+
+            <label for="descripcion">Una descripción de mi mismo:</label><br>
+            <textarea name="descripcion" id="descripcion" rows="4" cols="18"></textarea><br><br>
+
+            <label for="interes">Seleciona tus intereses:</label><br>
+            <select name="interes" id="interes" multiple>
+                <option value="musica">Musica</option>
+                <option value="deportes">Deportes</option>
+                <option value="viajes">Viajes</option>
+                <option value="tecnologia">Tecnologia</option>
+            </select><br><br><br>
+
+            <input type="submit" value="¡Registrate!">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+    text-decoration: underline wavy;
+    margin: 50px;
+}
+
+.primero{
+    background-color: lightseagreen;
+    color: aliceblue;
+    
+}
+
+.segundo{
+    background-color: fuchsia;
+    color: aliceblue;
+    display: inline-block;
+
+}
+
+.tercero{
+    background-color: navy;
+    color: aliceblue;
+    display: inline-block;
+
+}
+
+h3{
+    text-align: center;
+}
+.contenedor div{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+.contenedor{
+    margin: 0%;
+    text-align: center;
+}
