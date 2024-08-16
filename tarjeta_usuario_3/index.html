@@ -22,11 +22,11 @@
                 <div class="superior"></div>
                 <img src="img/perfil.jpg" alt="perfil" id="perfil">
                 <div class="contenido">
-                    <h1>Thiago Gutierrez</h1>
+                    <h1 id="usuario">Thiago Gutierrez</h1>
                     <h2>Encarnación, Paraguay</h2>
                     <p>Estudiante de Analisis de Sistemas informaticos | me gusta la tecnologia</p>
                     <p>Me gusta aprender cosas nuevas, programar. En tiepos libres jugar videojuegos, bicicletear por la costanera.</p>
-                    <button class="editar">editar perfil</button>
+                    <button class="editar" id="editar">editar perfil</button>
                 </div>
             </div>  
             <div class="educacion">
@@ -37,26 +37,26 @@
         </div>
         <div class="box3">
             <div class="conexiones">
-                <h2>Solicitudes de Conexión (2)</h2>
+                <h2 id="solicitudes">Solicitudes de Conexión (2)</h2>
                 <div class="listado1">
                     <div class="solicitud">
-                        <div class="elemento">
+                        <div class="elemento" id="elemento1">
                             <img src="img/usu4.jpg" alt="usuario" class="usuario">
                             <p>Fernando Acosta</p>
-                            <button class="check">✓</button>
-                            <button class="check">✕</button>
+                            <button class="check" onclick="solicitud('elemento1',true)">✓</button>
+                            <button class="check" onclick="solicitud('elemento1',false)">✕</button>
                         </div>
-                        <div class="elemento">
+                        <div class="elemento" id="elemento2">
                             <img src="img/usu2.png" alt="usuario" class="usuario">
                             <p>Anastacia Medina</p>
-                            <button class="check">✓</button>
-                            <button class="check">✕</button>
+                            <button class="check" onclick="solicitud('elemento2',true)">✓</button>
+                            <button class="check" onclick="solicitud('elemento2',false)">✕</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="conexiones">
-                <h2>Tus Conexiones (400+)</h2>
+                <h2 id="conexiones">Tus Conexiones (400)</h2>
                 <div class="listado2">
                     <div class="elemento">
                         <img src="img/usu1.png" alt="usuario" class="usuario">
@@ -78,6 +78,6 @@
             </div>
         </div>
     </div>
-    <script src="scipt.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
